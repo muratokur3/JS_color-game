@@ -1,0 +1,29 @@
+body{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 90vh;
+    width: 100vw;  
+}
+
+#gameCard{
+    border: 0px solid black;
+    height: 60vh;
+    width: 38vw; 
+    margin: 0 auto;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cardBox{
+    width: 8.6vw;
+    height: 11.6vh;
+    border: 1px solid white;
+    
+}
+.cardBox:hover
+{
+    opacity: .9;
+    cursor: pointer;
+}
